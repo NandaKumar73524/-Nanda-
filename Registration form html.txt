@@ -1,0 +1,110 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head> 
+
+<link rel="stylesheet" href=" ">
+<title> stylesheet </title>
+<link rel="stylesheet" href="../style2.css">
+<style>
+     body{
+         background-image:url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=600==") ;
+            background-size: cover;
+    }
+ </style>
+                   
+</head>
+<body>
+    <!-- registration form -->
+       <form action="" class="animate__bounceOut "></form>
+        <fieldset>
+            <legend>
+              registration form
+            </legend>
+                    
+            <table>
+                <tr>
+                    <td>
+                     <input type="text" class="form-control" placeholder="username">
+                    </td>
+                    </tr>
+                     <tr>
+                     <td>
+                        <input type=" email id" class="from-control" placeholder="abc@mail.com">
+                    </td>
+                    </tr>
+                     <tr>
+                         <td>
+                            <input type="password" class="form-control"placeholder="password">
+                        </td>
+                        </tr>
+                         <tr>
+                        <td>
+                            <input type=" password" class="form-control" placeholder="confirm password">
+                         </td>
+                        </tr>
+                         <tr>
+                        <td>
+                             <input type=" data" class="form-control"placeholder="dob">
+                         </td>
+                         </tr>
+                         <tr>
+                        <td>
+                         <input type="radio" class="form-control" name="gender">male
+                         <input type="radio" class="form-control" name="gender">female
+                         <input type="radio" class="form-content" name="gender">others
+                         </td>
+
+                       </tr>
+                        <tr>
+                             <ul id="list">
+                                <li>aNATAPUR</li>
+                                 <LI>ODISHA</LI>
+                                 <LI>BANGLORE</LI>
+                                <LI>TMAILNADU</LI>
+                                <LI>CHENNAI</LI>
+                                </ul>
+                        </tr>
+                        <tr>
+                            <td>
+                <select name="" class="form-control">
+                                  <option value="">----country-------</option>
+                                         <option value="">India</option>
+                                         <option value="">russia</option>
+                                         <option value="">america</option>
+                                         <option value="">iran</option>
+                                         <option value="">england</option>
+                                         <option value="">green land</option>
+                                         <option value="">austrliya</option>
+                                         <option value="">newgland</option>
+                                         <option value="">>westindins</option>
+                                         <option value="">greek</option>
+                                         <option value="">spin</option>
+                                                                                 
+                            </select>
+                                </td>
+                                    </tr>
+                                         
+                                      <tr>
+                                        <td>
+                                             <select name="" class="form-control">
+                                             <option value="">-----state-----</option>
+                                             <option value="">Andhra Pradesh</option>
+                                             <option value="">banglore</option>
+                                             <option value="">mumbai</option>
+                                             <option value="">chennai</option>
+                                             <option valuem"">hyderabad</option>
+                              </select>
+                                    </td>
+                                        </tr>
+                                        <tr>
+                                           <td>
+                                             <label for="#img">select :</label>
+                                              <input type="file" id="img" >
+                                           </td>
+                                </tr>
+                    </table>
+</fieldset>
+
+
+</body>
+</html> 
